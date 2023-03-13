@@ -22,16 +22,6 @@ other.onmouseout = function () {
 	other.style.display = "none";
 };
 //end about me pop up
-//start persentage
-let pers = document.querySelector("header .persentage");
-window.onscroll = function () {
-	let height =
-		document.documentElement.scrollHeight -
-		document.documentElement.clientHeight;
-	let scrollTop = document.documentElement.scrollTop;
-	pers.style.width = `${(scrollTop / height) * 100}%`;
-};
-//end persentage
 // start form
 let sub = document.querySelector('.latestevents input[type="submit"]');
 let inp = document.querySelector('.latestevents input[type="email"]');
@@ -51,7 +41,7 @@ sub.addEventListener("click", function () {
 // end form
 // start latest event
 let birth = new Date() - new Date("16 Feb, 2005"); //youm el milad
-birth.setHours(6, 51);
+// birth.setHours(6, 51);
 let birthInYear = birth / 1000 / 60 / 60 / 24 / 365.242199; // 3ndy kam sana
 let nextBirth = birthInYear; //3ndy kam sana m3 4el el 3lamat el34ria
 nextBirth++; //elsana elly htmha (19)
@@ -137,6 +127,23 @@ let statsNum = document.querySelectorAll(".ourawesome .stats > div > h2");
 let ourSkills = document.querySelector(".ourskills");
 let sklbar = document.querySelectorAll(".main-color");
 window.onscroll = function () {
+	/* end my skills*/
+	/* start my stats*/
+};
+function increase(e) {
+	let handler = setInterval(() => {
+		e.textContent === e.dataset.num ? clearInterval(handler) : e.textContent++;
+	}, 2500 / e.dataset.num);
+}
+//start persentage
+let pers = document.querySelector("header .persentage");
+window.onscroll = function () {
+	let height =
+		document.documentElement.scrollHeight -
+		document.documentElement.clientHeight;
+	let scrollTop = document.documentElement.scrollTop;
+	pers.style.width = `${(scrollTop / height) * 100}%`;
+	//
 	if (window.scrollY >= ourSkills.offsetTop - 200) {
 		sklbar.forEach((sklbaraya) => {
 			sklbaraya.style.left = 0;
@@ -147,15 +154,8 @@ window.onscroll = function () {
 			increase(i);
 		});
 	}
-	/* end my skills*/
-	/* start my stats*/
 };
-function increase(e) {
-	let handler = setInterval(() => {
-		e.textContent === e.dataset.num ? clearInterval(handler) : e.textContent++;
-	}, 2500 / e.dataset.num);
-}
-
+//end persentage
 /* end my stats*/
 /*
 	if (window.scrollY >= ourawesome.offsetTop - 150) {
