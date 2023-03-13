@@ -56,12 +56,6 @@ a {
 input[type="email"] {
 	text-transform: none !important;
 }
-.content-head.latestevents h2,
-.content-head.hiw h2,
-.content-head.team-member h2,
-.content-head.pricingplans h2 {
-	font-size: 25px !important;
-}
 /* end basics */
 /*start alert js*/
 .detail {
@@ -376,7 +370,11 @@ header ul li:hover::after {
 	justify-content: center;
 	align-items: center;
 	padding: 8vh 0;
-	font-size: 25px;
+	font-size: 15px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 0;
 }
 .content-head h2 {
 	text-transform: uppercase;
@@ -385,6 +383,7 @@ header ul li:hover::after {
 	position: relative;
 	transition: var(--maintransition);
 	transform: translateY(0%);
+	width: 200px;
 }
 .content-head h2::before {
 	content: "";
