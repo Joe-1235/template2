@@ -379,11 +379,12 @@ header ul li:hover::after {
 .content-head h2 {
 	text-transform: uppercase;
 	border: 3px solid black;
-	padding: 10px 25px;
+	padding: 10px 0;
 	position: relative;
 	transition: var(--maintransition);
 	transform: translateY(0%);
 	width: 200px;
+	text-align: center;
 }
 .content-head h2::before {
 	content: "";
