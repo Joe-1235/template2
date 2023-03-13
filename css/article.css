@@ -194,14 +194,25 @@ header .links > ul > li:hover::after {
 .body h2:hover {
 	color: var(--alt-main-color);
 }
-.body .cat8 {
-	width: 300px;
+.body .cat {
 	padding: 5vh 0;
 	margin-left: 2%;
 	align-self: flex-start;
 	border-radius: 20px;
 }
-.body .cat8-alt {
+.cat3,
+.cat4,
+.cat7,
+.cat8 {
+	width: 300px;
+}
+.cat1,
+.cat2,
+.cat5,
+.cat6 {
+	width: 60%;
+}
+.body .cat-alt {
 	width: 200px;
 	margin-right: 2vw;
 	align-self: flex-end;
