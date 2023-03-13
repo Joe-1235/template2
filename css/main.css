@@ -56,6 +56,12 @@ a {
 input[type="email"] {
 	text-transform: none !important;
 }
+.content-head.latestevents h2,
+.content-head.hiw h2,
+.content-head.team-member h2,
+.content-head.pricingplans h2 {
+	font-size: 25px !important;
+}
 /* end basics */
 /*start alert js*/
 .detail {
