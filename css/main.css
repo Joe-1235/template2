@@ -1165,7 +1165,7 @@ header ul li:hover::after {
 	padding-bottom: 5%;
 }
 .ourskills .content-head.ourskills {
-	flex-basis: 100%;
+	flex-basis: 75%;
 }
 .ourskills img {
 	flex-basis: 40%;
@@ -1176,7 +1176,7 @@ header ul li:hover::after {
 	flex-wrap: wrap;
 }
 .ourskills .skills > div {
-	flex-basis: 100%;
+	flex-basis: 75%;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -1187,7 +1187,7 @@ header ul li:hover::after {
 	justify-content: space-between;
 	align-items: flex-start;
 	padding: 3% 0;
-	flex-basis: 100%;
+	flex-basis: 75%;
 }
 .ourskills .skills > div .skltext p {
 	color: var(--maincolor);
@@ -1244,7 +1244,7 @@ header ul li:hover::after {
 	flex-wrap: wrap;
 }
 .hiw .content-head.hiw {
-	flex-basis: 100%;
+	flex-basis: 75%;
 }
 .hiw > img {
 	flex-basis: 40%;
@@ -1334,7 +1334,7 @@ header ul li:hover::after {
 	z-index: -1;
 }
 .latestevents .content-head.latestevents {
-	flex-basis: 100%;
+	flex-basis: 75%;
 }
 .latestevents .eventimg {
 	flex-basis: 40%;
@@ -1352,7 +1352,7 @@ header ul li:hover::after {
 	flex-wrap: wrap;
 }
 .latestevents .eventtextarea .eventcards {
-	flex-basis: 100%;
+	flex-basis: 75%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -1432,7 +1432,7 @@ header ul li:hover::after {
 	padding: 50px 0;
 }
 .pricingplans .content-head.pricingplans {
-	flex-basis: 100%;
+	flex-basis: 75%;
 }
 .pricingplans > img:nth-of-type(1) {
 	position: absolute;
@@ -1447,7 +1447,7 @@ header ul li:hover::after {
 	z-index: -1;
 }
 .pricingplans .plans {
-	flex-basis: 100%;
+	flex-basis: 75%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -1626,7 +1626,7 @@ header ul li:hover::after {
 	flex-wrap: wrap;
 }
 .topvideos .content-head.topvideos {
-	flex-basis: 100%;
+	flex-basis: 75%;
 }
 .topvideos .vidcontainer {
 	display: flex;
@@ -1742,14 +1742,14 @@ header ul li:hover::after {
 	width: 100%;
 }
 .ourawesome .stats {
-	flex-basis: 100%;
+	flex-basis: 75%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	background-color: rgb(255 255 255 / 0.9);
 }
 .ourawesome .stats h2 {
-	flex-basis: 100%;
+	flex-basis: 75%;
 	text-align: center;
 	padding: 5%;
 	font-size: 40px;
@@ -1882,7 +1882,7 @@ header ul li:hover::after {
 }
 .ourawesome .req form {
 	height: 90%;
-	flex-basis: 100%;
+	flex-basis: 75%;
 }
 .ourawesome .req form > input {
 	display: flex;
@@ -1914,10 +1914,10 @@ header ul li:hover::after {
 }
 @media (max-width: 992px) {
 	.ourawesome .discount {
-		flex-basis: 100%;
+		flex-basis: 75%;
 	}
 	.ourawesome .req {
-		flex-basis: 100%;
+		flex-basis: 75%;
 	}
 }
 /* end our awesome stats */
