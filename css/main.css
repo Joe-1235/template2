@@ -1913,11 +1913,9 @@ header ul li:hover::after {
 	border-color: #000;
 }
 @media (max-width: 992px) {
+	.ourawesome .req,
 	.ourawesome .discount {
-		flex-basis: 75%;
-	}
-	.ourawesome .req {
-		flex-basis: 75%;
+		flex-basis: 100%;
 	}
 }
 /* end our awesome stats */
