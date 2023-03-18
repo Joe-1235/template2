@@ -1176,7 +1176,7 @@ header ul li:hover::after {
 	flex-wrap: wrap;
 }
 .ourskills .skills > div {
-	flex-basis: 75%;
+	flex-basis: 100%;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -1187,7 +1187,7 @@ header ul li:hover::after {
 	justify-content: space-between;
 	align-items: flex-start;
 	padding: 3% 0;
-	flex-basis: 75%;
+	flex-basis: 100%;
 }
 .ourskills .skills > div .skltext p {
 	color: var(--maincolor);
